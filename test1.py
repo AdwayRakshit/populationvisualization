@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.set_page_config(layout='wide')
 st.markdown('GAPMINDER DASHBOARD')
-df=pd.read_csv('dataset/gapminder_data_graphs.csv')
+df=pd.read_csv('gapminder_data_graphs.csv')
 #st.dataframe(df)
 unique_years=df['year'].unique()
 print(unique_years)
